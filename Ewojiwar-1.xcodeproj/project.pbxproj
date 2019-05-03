@@ -8,15 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		D913A3512261F5B600E3A3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3502261F5B600E3A3AA /* AppDelegate.swift */; };
-		D913A3532261F5B600E3A3AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D913A3522261F5B600E3A3AA /* GameScene.sks */; };
-		D913A3552261F5B600E3A3AA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D913A3542261F5B600E3A3AA /* Actions.sks */; };
 		D913A3572261F5B600E3A3AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3562261F5B600E3A3AA /* GameScene.swift */; };
 		D913A3592261F5B600E3A3AA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3582261F5B600E3A3AA /* GameViewController.swift */; };
 		D913A35C2261F5B600E3A3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913A35A2261F5B600E3A3AA /* Main.storyboard */; };
 		D913A35E2261F5B700E3A3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D913A35D2261F5B700E3A3AA /* Assets.xcassets */; };
-		D913A3612261F5B700E3A3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913A35F2261F5B700E3A3AA /* LaunchScreen.storyboard */; };
 		D913A36C2261F5B800E3A3AA /* Ewojiwar_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A36B2261F5B800E3A3AA /* Ewojiwar_1Tests.swift */; };
 		D913A3772261F5B800E3A3AA /* Ewojiwar_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3762261F5B800E3A3AA /* Ewojiwar_1UITests.swift */; };
+		D913A3972261F5FD00E3A3AA /* Sprite.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D913A3842261F5FB00E3A3AA /* Sprite.atlas */; };
+		D913A3982261F5FD00E3A3AA /* emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3852261F5FC00E3A3AA /* emoji.swift */; };
+		D913A3992261F5FD00E3A3AA /* title.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3862261F5FC00E3A3AA /* title.swift */; };
+		D913A39A2261F5FD00E3A3AA /* level.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3872261F5FC00E3A3AA /* level.swift */; };
+		D913A39B2261F5FD00E3A3AA /* array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3882261F5FC00E3A3AA /* array2D.swift */; };
+		D913A39D2261F5FD00E3A3AA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A38A2261F5FC00E3A3AA /* Tile.swift */; };
+		D913A39E2261F5FD00E3A3AA /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = D913A38C2261F5FC00E3A3AA /* Level_2.json */; };
+		D913A39F2261F5FD00E3A3AA /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D913A38D2261F5FC00E3A3AA /* Level_3.json */; };
+		D913A3A02261F5FD00E3A3AA /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = D913A38E2261F5FC00E3A3AA /* Level_4.json */; };
+		D913A3A12261F5FD00E3A3AA /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = D913A38F2261F5FC00E3A3AA /* Level_0.json */; };
+		D913A3A22261F5FD00E3A3AA /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = D913A3902261F5FC00E3A3AA /* Level_1.json */; };
+		D913A3A32261F5FD00E3A3AA /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913A3912261F5FD00E3A3AA /* LevelData.swift */; };
+		D913A3A52261F5FD00E3A3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913A3952261F5FD00E3A3AA /* Main.storyboard */; };
+		D913A3A92261FAD100E3A3AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D913A3A82261FAD100E3A3AA /* Default-568h@2x.png */; };
+		D913A3B42262024D00E3A3AA /* Grid in Resources */ = {isa = PBXBuildFile; fileRef = D913A3B32262024D00E3A3AA /* Grid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +51,10 @@
 /* Begin PBXFileReference section */
 		D913A34D2261F5B600E3A3AA /* Ewojiwar-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ewojiwar-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913A3502261F5B600E3A3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D913A3522261F5B600E3A3AA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D913A3542261F5B600E3A3AA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D913A3562261F5B600E3A3AA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D913A3582261F5B600E3A3AA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D913A35B2261F5B600E3A3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D913A35D2261F5B700E3A3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D913A3602261F5B700E3A3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D913A3622261F5B700E3A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D913A3672261F5B800E3A3AA /* Ewojiwar-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ewojiwar-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913A36B2261F5B800E3A3AA /* Ewojiwar_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ewojiwar_1Tests.swift; sourceTree = "<group>"; };
@@ -53,6 +62,22 @@
 		D913A3722261F5B800E3A3AA /* Ewojiwar-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ewojiwar-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913A3762261F5B800E3A3AA /* Ewojiwar_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ewojiwar_1UITests.swift; sourceTree = "<group>"; };
 		D913A3782261F5B800E3A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D913A3842261F5FB00E3A3AA /* Sprite.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprite.atlas; sourceTree = "<group>"; };
+		D913A3852261F5FC00E3A3AA /* emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emoji.swift; sourceTree = "<group>"; };
+		D913A3862261F5FC00E3A3AA /* title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = title.swift; sourceTree = "<group>"; };
+		D913A3872261F5FC00E3A3AA /* level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = level.swift; sourceTree = "<group>"; };
+		D913A3882261F5FC00E3A3AA /* array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = array2D.swift; sourceTree = "<group>"; };
+		D913A38A2261F5FC00E3A3AA /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		D913A38C2261F5FC00E3A3AA /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		D913A38D2261F5FC00E3A3AA /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		D913A38E2261F5FC00E3A3AA /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		D913A38F2261F5FC00E3A3AA /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		D913A3902261F5FC00E3A3AA /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		D913A3912261F5FD00E3A3AA /* LevelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelData.swift; sourceTree = "<group>"; };
+		D913A3962261F5FD00E3A3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		D913A3A82261FAD100E3A3AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D913A3AE2262002C00E3A3AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/kamildlutowski/Desktop/Ewojiwar-1/Ewojiwar-1/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
+		D913A3B32262024D00E3A3AA /* Grid */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Grid; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +108,7 @@
 		D913A3442261F5B500E3A3AA = {
 			isa = PBXGroup;
 			children = (
+				D913A3A82261FAD100E3A3AA /* Default-568h@2x.png */,
 				D913A34F2261F5B600E3A3AA /* Ewojiwar-1 */,
 				D913A36A2261F5B800E3A3AA /* Ewojiwar-1Tests */,
 				D913A3752261F5B800E3A3AA /* Ewojiwar-1UITests */,
@@ -104,14 +130,22 @@
 			isa = PBXGroup;
 			children = (
 				D913A3502261F5B600E3A3AA /* AppDelegate.swift */,
-				D913A3522261F5B600E3A3AA /* GameScene.sks */,
-				D913A3542261F5B600E3A3AA /* Actions.sks */,
+				D913A3882261F5FC00E3A3AA /* array2D.swift */,
+				D913A3852261F5FC00E3A3AA /* emoji.swift */,
+				D913A3872261F5FC00E3A3AA /* level.swift */,
+				D913A3912261F5FD00E3A3AA /* LevelData.swift */,
+				D913A38A2261F5FC00E3A3AA /* Tile.swift */,
+				D913A3862261F5FC00E3A3AA /* title.swift */,
+				D913A3AE2262002C00E3A3AA /* LaunchScreen.storyboard */,
 				D913A3562261F5B600E3A3AA /* GameScene.swift */,
 				D913A3582261F5B600E3A3AA /* GameViewController.swift */,
 				D913A35A2261F5B600E3A3AA /* Main.storyboard */,
 				D913A35D2261F5B700E3A3AA /* Assets.xcassets */,
-				D913A35F2261F5B700E3A3AA /* LaunchScreen.storyboard */,
+				D913A3922261F5FD00E3A3AA /* Base.lproj */,
+				D913A38B2261F5FC00E3A3AA /* Levels */,
+				D913A3842261F5FB00E3A3AA /* Sprite.atlas */,
 				D913A3622261F5B700E3A3AA /* Info.plist */,
+				D913A3B32262024D00E3A3AA /* Grid */,
 			);
 			path = "Ewojiwar-1";
 			sourceTree = "<group>";
@@ -132,6 +166,26 @@
 				D913A3782261F5B800E3A3AA /* Info.plist */,
 			);
 			path = "Ewojiwar-1UITests";
+			sourceTree = "<group>";
+		};
+		D913A38B2261F5FC00E3A3AA /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				D913A38C2261F5FC00E3A3AA /* Level_2.json */,
+				D913A38D2261F5FC00E3A3AA /* Level_3.json */,
+				D913A38E2261F5FC00E3A3AA /* Level_4.json */,
+				D913A38F2261F5FC00E3A3AA /* Level_0.json */,
+				D913A3902261F5FC00E3A3AA /* Level_1.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		D913A3922261F5FD00E3A3AA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D913A3952261F5FD00E3A3AA /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +292,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D913A3972261F5FD00E3A3AA /* Sprite.atlas in Resources */,
+				D913A3A02261F5FD00E3A3AA /* Level_4.json in Resources */,
+				D913A39F2261F5FD00E3A3AA /* Level_3.json in Resources */,
 				D913A35C2261F5B600E3A3AA /* Main.storyboard in Resources */,
-				D913A3532261F5B600E3A3AA /* GameScene.sks in Resources */,
+				D913A3A22261F5FD00E3A3AA /* Level_1.json in Resources */,
+				D913A3A92261FAD100E3A3AA /* Default-568h@2x.png in Resources */,
 				D913A35E2261F5B700E3A3AA /* Assets.xcassets in Resources */,
-				D913A3612261F5B700E3A3AA /* LaunchScreen.storyboard in Resources */,
-				D913A3552261F5B600E3A3AA /* Actions.sks in Resources */,
+				D913A3A52261F5FD00E3A3AA /* Main.storyboard in Resources */,
+				D913A3A12261F5FD00E3A3AA /* Level_0.json in Resources */,
+				D913A39E2261F5FD00E3A3AA /* Level_2.json in Resources */,
+				D913A3B42262024D00E3A3AA /* Grid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D913A3992261F5FD00E3A3AA /* title.swift in Sources */,
+				D913A39B2261F5FD00E3A3AA /* array2D.swift in Sources */,
 				D913A3572261F5B600E3A3AA /* GameScene.swift in Sources */,
+				D913A3A32261F5FD00E3A3AA /* LevelData.swift in Sources */,
+				D913A39D2261F5FD00E3A3AA /* Tile.swift in Sources */,
 				D913A3592261F5B600E3A3AA /* GameViewController.swift in Sources */,
+				D913A3982261F5FD00E3A3AA /* emoji.swift in Sources */,
+				D913A39A2261F5FD00E3A3AA /* level.swift in Sources */,
 				D913A3512261F5B600E3A3AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,12 +379,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D913A35F2261F5B700E3A3AA /* LaunchScreen.storyboard */ = {
+		D913A3952261F5FD00E3A3AA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D913A3602261F5B700E3A3AA /* Base */,
+				D913A3962261F5FD00E3A3AA /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -454,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kamild.Ewojiwar-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kamild.Ewojiwar-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

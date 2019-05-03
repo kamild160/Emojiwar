@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Ewojiwar-1
+//  Emojiwar
 //
-//  Created by Kamil Dlutowski on 13/04/2019.
+//  Created by Kamil Dlutowski on 30/03/2019.
 //  Copyright © 2019 Kamil Dlutowski. All rights reserved.
 //
 

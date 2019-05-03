@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "absolute:/Users/kamildlutowski/Desktop/Ewojiwar-1/Ewojiwar-1/Grid.atlas">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/kamildlutowski/Desktop/Ewojiwar-1/Ewojiwar-1/LaunchScreen.storyboard">
+   </FileRef>
+   <FileRef
       location = "self:Ewojiwar-1.xcodeproj">
    </FileRef>
 </Workspace>

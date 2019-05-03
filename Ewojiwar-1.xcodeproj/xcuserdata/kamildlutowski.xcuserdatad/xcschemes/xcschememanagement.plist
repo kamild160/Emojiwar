@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Ewojiwar-1 2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Ewojiwar-1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D913A34C2261F5B600E3A3AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D913A3662261F5B800E3A3AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D913A3712261F5B800E3A3AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
